@@ -1,0 +1,41 @@
+﻿# node / pnpm
+node_modules/
+.pnpm-store/
+.turbo/
+dist/
+build/
+coverage/
+npm-debug.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Android
+apps/*/android/.gradle/
+apps/*/android/**/build/
+apps/*/android/local.properties
+*.keystore
+*.jks
+
+# iOS
+apps/*/ios/Pods/
+apps/*/ios/build/
+apps/*/ios/DerivedData/
+
+# Firebase & secrets
+**/google-services.json
+**/GoogleService-Info.plist
+infra/**/serviceAccount*.json
+.env
+.env.*
+*.p12
+*.pem
+
+# Misc
+*.iml

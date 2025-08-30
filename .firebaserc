@@ -1,0 +1,8 @@
+﻿{
+  "projects": {
+    "default": "og-guru-dev",
+    "dev": "og-guru-dev",
+    "stage": "og-guru-stage",
+    "prod": "og-guru-prod"
+  }
+}

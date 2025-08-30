@@ -1,0 +1,11 @@
+﻿{
+  "project": {
+    "android": {
+      "sourceDir": "apps/customer-app/android",
+      "manifestPath": "apps/customer-app/android/app/src/main/AndroidManifest.xml",
+      "packageName": "com.outstationguru.customer"
+    }
+  },
+  "assets": [],
+  "dependencies": []
+}

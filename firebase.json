@@ -1,0 +1,18 @@
+﻿{
+  "functions": {
+    "source": "services/api/functions",
+    "runtime": "nodejs22"
+  },
+  "firestore": {
+    "rules": "infra/backend/firestore.rules",
+    "indexes": "infra/backend/firestore.indexes.json"
+  },
+  "hosting": [
+    {
+      "target": "admin",
+      "public": "apps/admin-panel/out",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [{ "source": "**", "destination": "/index.html" }]
+    }
+  ]
+}

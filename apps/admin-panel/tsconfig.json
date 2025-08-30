@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@og/utils": ["../../packages/utils/src"],
+      "@og/config": ["../../packages/config/src"],
+      "@og/ui": ["../../packages/ui/src"]
+    }
+  },
+  "include": ["app", "next-env.d.ts"]
+}
